@@ -9,13 +9,17 @@
   <meta name="description" content="A simple HTML5 Template for new projects.">
   <meta property="og:title" content="A Basic HTML5 Template">
 
-  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/default.css">
   <link rel="stylesheet" href="css/shop.css">
 
 </head>
 
 <body>
-  
-  <script src="js/shop.js"></script>
+  <div class="header">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
 </body>
 </html>

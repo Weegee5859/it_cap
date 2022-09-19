@@ -1,0 +1,107 @@
+/*
+ * Author:		 
+ * Date:		9/19/2022	
+ * Filename:	default.css
+ */
+/*
+// Blue: 6096BA;
+// Brown: 9C916D;
+// White: FFFFFF;
+// Black: 0F1A20;
+*/
+/* Scrollbar */
+::-webkit-scrollbar {
+	width: 9px;
+	height: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #e6e6e6;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #6096BA;
+	border-radius: 10px;
+}
+
+/* Handle Hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #8EB4CD;
+}
+
+a:link {
+	color: #9C916D;
+}
+
+a:visited {
+	color: #C5BFAA;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Verdana', Fallback, sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+input, textarea {
+	border: 2px solid #f1f1f1;
+	border-bottom: 2px solid #b5e2e3;
+	background-color: white;
+	padding: 5px;
+	outline-style: none;
+	transition: 0.2s ease;
+	margin: 5px;
+}
+
+input:focus, textarea:focus {
+	border-bottom: 2px solid #389294;
+}
+
+/*
+input:not(:placeholder-shown):not(:focus):invalid {
+	border-bottom: 2px solid #ffb62a;
+}
+*/
+
+input:valid {
+	border-bottom: 2px solid lightgreen;	
+}
+
+p {
+	font-size: 16px;
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.header a {
+	color: #0F1A20;
+	padding: .8em;
+	font-size: 1em;
+	background-color: white;
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+.header a:hover {
+	color: #9C916D;
+}
+
+#footer_container {
+	background-color: #9bd8da;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
