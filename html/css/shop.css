@@ -29,8 +29,9 @@
 	position: absolute;
 }
 
-.productList * {
+.productList  {
 	margin: 2em;
+	display: flex;
 }
 
 .product {
@@ -43,6 +44,7 @@
 .product * {
 	margin: 0px;
 	padding: 3px;
+	position: relative;
 }
 
 .productImage {
@@ -110,4 +112,45 @@
 	color: #9C916D;
 	background-color: rgba(0, 0, 0, 0);
 	font-weight: bold;
+}
+
+.navbar{
+	display: grid;
+	padding: 10px;
+	background-color: #6096BA;
+	border-radius: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	box-shadow: 10px 10px 5px #aaaaaa;
+	font-weight: bold;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a{
+	padding-top: 20px;
+	font-size: 18px;
+	
+}
+
+a:hover{
+	background-color: #3d9ddc;
+}
+
+.bar{
+	display: flex;
+	background-color: #6096BA;
+}
+
+.home-title{
+	font-weight: bold;
+	margin: auto;
+	color: white;
+}
+
+.icons{
+	padding: 5px;
+	margin-top: 5px;
 }
