@@ -1,0 +1,31 @@
+/*
+ * Author:		 
+ * Date:		9/19/2022	
+ * Filename:	header.css
+ */
+/*
+// Blue: 6096BA;
+// Brown: 9C916D;
+// White: FFFFFF;
+// Black: 0F1A20;
+*/
+
+.header {
+	width: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.header div {
+	color: #0F1A20;
+	padding: .8em;
+	font-size: 1em;
+	background-color: white;
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+.header div:hover {
+	color: #9C916D;
+}

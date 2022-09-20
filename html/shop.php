@@ -19,18 +19,18 @@
 
   <div class="shopHeader">
       <img class="shopImage" src="resources/clothes2.jpg">
-      <p>Hello</p>
+      <p class="shopTitle"><mark class="highlight">Shop</mark> for the <br> latest trendy styles.</p>
   </div>
-
-
 
   <div class="productList">
     <div class="product">
       <img class="productImage" src="resources/shirt.jpg">
-      <p class="productName">Black Shirt</p>
-      <p class="productDesc">Men's Shirt</p>
-      <p class="productPrice">$15.99</p>
-      <div class="productAddCart">Add to Cart</div>
+      <div class="productInfoContainer">
+        <p class="productName">Black Shirt</p>
+        <p class="productDesc">Men's Shirt</p>
+        <p class="productPrice">$15.99</p>
+        <div class="productAddCart">Add to Cart</div> 
+      </div>
     </div>
   </div>
 

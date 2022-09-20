@@ -9,8 +9,8 @@
   <meta name="description" content="A simple HTML5 Template for new projects.">
   <meta property="og:title" content="A Basic HTML5 Template">
 
-  <link rel="stylesheet" href="css/all.css">
-  <link rel="stylesheet" href="css/shop.css">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/footer.css">
 
 </head>
 

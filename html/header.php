@@ -10,16 +10,15 @@
   <meta property="og:title" content="A Basic HTML5 Template">
 
   <link rel="stylesheet" href="css/default.css">
-  <link rel="stylesheet" href="css/shop.css">
+  <link rel="stylesheet" href="css/header.css">
 
 </head>
 
 <body>
   <div class="header">
-    <a href="#home">Home</a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+    <div href="#about">About</div>
+    <div href="#home">Home</div>
+    <div href="#shop">Shopping</div>
   </div>
 </body>
 </html>
