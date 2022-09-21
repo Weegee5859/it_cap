@@ -1,7 +1,3 @@
-create database project;
-
-use project;
+use Projectdb;
 show tables;
-
-create table Customers(
-);
+SELECT * FROM customers;
