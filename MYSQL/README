@@ -1,2 +1,2 @@
 Modeling the e-commerce website based on the prompt provided. 
-Still have to create the table based on the model.
+Need to review relations between tables, and might need to create a "cart" table.
