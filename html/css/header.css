@@ -15,17 +15,36 @@
 	display: flex;
 	align-content: center;
 	justify-content: center;
+	height: 3em;
 }
 
-.header div {
+.header div.label {
 	color: #0F1A20;
 	padding: .8em;
 	font-size: 1em;
 	background-color: white;
 	text-decoration: none;
 	transition: color 0.2s ease;
+	cursor: pointer;
 }
 
-.header div:hover {
+.header div.label:hover {
 	color: #9C916D;
+}
+
+
+.iconContainer {
+	display: flex;
+	flex-direction: row;
+
+	margin-left: auto;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.iconContainer div {
+	padding: 0px;
+	margin: 0px;
+	margin-right: 1em;
 }
