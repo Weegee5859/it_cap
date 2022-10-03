@@ -23,7 +23,7 @@
   </div>
   <div class="mainContainer">
     <div class="navbar">
-      <div href="shop.php">Pants</div>
+      <div href="cart.php">Pants</div>
       <div href="shop.php">Shirts</div>
       <div href="shop.php">Sweaters</div>
       <div href="shop.php">Shorts</div>
