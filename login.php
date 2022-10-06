@@ -1,23 +1,3 @@
-<?php 
-
-$serverName = "aws-project.cu4q9u3qbdkh.us-east-1.rds.amazonaws.com:3306";
-$dbUserName = "admin";
-$dbPassword = "Admin10_";
-$dbName = "Projectdb";
-
-$conn = mysqli_connect($serverName,$dbUserName,$dbPassword,$dbName);
-
-if(!$conn){
-  die("Connection Failed: " . mysqli_connect_error());
-}else{
-  echo "Connected!";
-}
-
-
-?>
-
-
-
 <!doctype html>
 
 <html lang="en">
