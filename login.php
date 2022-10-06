@@ -1,6 +1,6 @@
 <?php 
 
-$serverName = "aws-project.cu4q9u3qbdkh.us-east-1.rds.amazonaws.com";
+$serverName = "aws-project.cu4q9u3qbdkh.us-east-1.rds.amazonaws.com:3306";
 $dbUserName = "admin";
 $dbPassword = "Admin10_";
 $dbName = "Projectdb";
@@ -38,7 +38,7 @@ if(!$conn){
   <?php include 'header.php';?>
 
   <div class="login">
-      <form action="#" method="post" class="form">
+      <form action="#" method="PUT" class="form">
         <img class="icon" src="resources/login.png" alt="icon">
         <input type="text" name="username" placeholder="Enter username">
         <input type="password" name="password" placeholder="Enter password">
