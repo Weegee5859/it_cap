@@ -4,7 +4,7 @@ $serverName = "sql110.epizy.com";
 $dbUser = "epiz_32739619";
 $dbpass = "YAs4V9ZkSn";
 $dbName = "epiz_32739619_itcapstoneproject";
-
+/*
 $conn = mysqli_connect($serverName,$dbUser,$dbpass,$dbName);
 
 if(!$conn){
@@ -13,6 +13,9 @@ if(!$conn){
   echo "connection good";
 }
 
+$sql = "SELECT orderName FROM orders";
+echo $sql
+*/
 
 ?>
 
@@ -29,25 +32,32 @@ if(!$conn){
   <meta name="description" content="A simple HTML5 Template for new projects.">
   <meta property="og:title" content="A Basic HTML5 Template">
 
-  <link rel="stylesheet" href="default.css">
-  <link rel="stylesheet" href="loginstyle.css">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/loginstyle.css">
 
 </head>
 
 <body>
   <?php include 'header.php';?>
 
+
   <div class="login">
+      <div id="loginMessage">
+        <p id="title">Welcome <br> Back</p>
+        <p id="message">Log back in to your XYZ Account and start making your fashion statement today! Connect with us through  our Facebook, Twitter, or Instagram and show us <b>your</b> style!</p>
+      </div>
+
       <form action="#" method="PUT" class="form">
+        <p id="title">Login</p>
         <img class="icon" src="resources/login.png" alt="icon">
         <input type="text" name="username" placeholder="Enter username">
         <input type="password" name="password" placeholder="Enter password">
-        <button type="submit" name="submit">submit</button>
+        <button type="submit" name="submit">Submit</button>
         <p>Don't have an account? <span><a href="#">Sign Up</a></span></p>
       </form>
   </div>
 
   <?php include 'footer.php';?>
-  <script src="js/shop.js"></script>
+  <!--<script src="js/shop.js"></script>-->
 </body>
 </html>
