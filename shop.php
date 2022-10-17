@@ -4,7 +4,7 @@ $serverName = "sql110.epizy.com";
 $dbUser = "epiz_32739619";
 $dbpass = "YAs4V9ZkSn";
 $dbName = "epiz_32739619_itcapstoneproject";
-/*
+
 $conn = mysqli_connect($serverName,$dbUser,$dbpass,$dbName);
 
 if(!$conn){
@@ -12,7 +12,15 @@ if(!$conn){
 }else{
   echo "connection good";
 }
-*/
+
+  //Get data
+  $sql_product = "SELECT productName, productPrice, productStock, productDescription FROM product";
+
+  $product_result = mysqli_query($conn, $sql_product);
+
+  $products = mysqli_fetch_all($product_result, MYSQLI_ASSOC);
+
+  //print_r($products)
 
 ?>
 <!doctype html>
@@ -46,25 +54,17 @@ if(!$conn){
       <div href="shop.php">Shorts</div>
     </div>
     <div class="productList">
-      <div class="product">
-          <img class="productImage" src="resources/shirt.jpg">
-          <div class="productInfoContainer">
-            <p class="productName">Black Shirt</p>
-            <p class="productDesc">Men's Shirt</p>
-            <p class="productPrice">$15.99</p>
-            <div class="productAddCart">Add to Cart</div> 
-          </div>
-        </div>
-
-        <div class="product">
-          <img class="productImage" src="resources/shirt.jpg">
-          <div class="productInfoContainer">
-            <p class="productName">Black Shirt</p>
-            <p class="productDesc">Men's Shirt</p>
-            <p class="productPrice">$15.99</p>
-            <div class="productAddCart">Add to Cart</div> 
-          </div>
-        </div>
+    <?php  foreach ($products as $product) { ?>
+            <div class="product">
+                <div class="productInfoContainer">
+                    <img class="productImage" src="resources/shirt.jpg">
+                    <p class="productName"><?php echo htmlspecialchars($product['productName']);?></p>
+                    <p class="productDesc"><?php echo htmlspecialchars($product['productDescription']);?></p>
+                    <p class="productPrice"><?php echo htmlspecialchars($product['productPrice']);?></p>
+                    <div class="productAddCart">Add to Cart</div> 
+                </div>
+            </div>
+      <?php  } ?>
     </div>
   </div>
 
