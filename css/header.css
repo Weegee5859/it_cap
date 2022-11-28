@@ -1,0 +1,92 @@
+/*
+ * Author:		 
+ * Date:		9/19/2022	
+ * Filename:	header.css
+ */
+/*
+// Blue: 6096BA;
+// Brown: 9C916D;
+// White: FFFFFF;
+// Black: 0F1A20;
+*/
+
+.header {
+	width: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	height: 3em;
+}
+
+.header .label {
+	color: #0F1A20;
+	padding: .8em;
+	font-size: 1em;
+	background-color: white;
+	text-decoration: none;
+	transition: color 0.2s ease;
+	cursor: pointer;
+}
+
+.header .label:hover {
+	color: #9C916D;
+}
+
+
+.iconContainer {
+	display: flex;
+	flex-direction: row;
+
+	margin-left: auto;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.iconContainer * {
+	padding: 0px;
+	margin: 0px;
+	margin-right: 1em;
+}
+
+.iconContainer a:last-child {
+	margin-right: 0px;
+}
+
+.iconContainer *:last-child {
+	margin-right: 0px;
+}
+
+#logout {
+	text-decoration: none;
+	color: black;
+	font-size: 2em;
+}
+
+.iconContainer *:hover {
+	color: #9C916D;
+}
+
+.cartQuantity {
+	position: absolute;
+	background-color: dodgerblue;
+    border-radius: 50%;
+    padding: 3px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    height: 1em;
+    width: 1em;
+    right: 1px;
+    margin-top: 14px;
+    font-size: .8em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cartQuantity span {
+
+}

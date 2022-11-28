@@ -1,0 +1,146 @@
+.cart{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.items {
+    display: flex;
+    border: 2px solid rgba(0,0,0,0.2);
+    border-left: 4px solid rgba(0,0,0,0.2);
+    border-radius: 7px;
+    border-top-right-radius: 0px;
+    margin-top: 2em;
+    padding: .3em;
+    padding-right: 2em;
+}
+
+.mainCart{
+    background-color: white;
+    padding: 8px;
+}
+
+.cartItemInfo{
+   font-size: 12px;
+   position: relative;
+   left: 10px;
+   width: 50%;
+}
+
+.counter {
+    width: 300px;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+.counter input {
+    width: 30px;
+    border: 0;
+    line-height: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    appearance: none;
+    outline: 0;
+}
+.counter span {
+    display: block;
+    font-size: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #0052cc;
+    user-select: none;
+}
+
+.summary{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 7px;
+    border-top-right-radius: 0px;
+    width: 40%;
+    height: fit-content;
+}
+
+.summary h1 {
+    font-size: 2em;
+    padding: .2em;
+    margin: .2em;
+}
+
+.summary h2 {
+    color: rgba(210, 210, 210, 1.0);
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    margin-bottom: 1.5em;
+}
+
+.summary h2 * {
+    margin: 0px;
+    padding: 0px;
+}
+
+.totalHeader * {
+    color: black;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.summary span {
+    margin-left: auto;
+}
+
+
+.tax{
+    padding-bottom: .5em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.CheckoutButton{
+    background-color: limegreen;
+    color: white;
+    border: 0px solid black;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+.productSize {
+    border: 0px solid black;
+    color: black;
+}
+
+.productName {
+    font-size: 2em;
+    padding-bottom: .1em;
+    margin-bottom: .1em;
+}
+
+.productDesc {
+    margin-top: .1em;
+    padding-top: .1em;
+    font-size: 1em;
+}
+
+.productTotal {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: .1em;
+}
+
+.productTotal::before {
+    content: "$";
+}
+
+.productPrice {
+    font-size: 1em;
+    font-weight: 100;
+    margin-top: .1em;
+    color: rgba(0,0,0,0.4);
+}
+
+.productPrice::before {
+    content: "$";
+}

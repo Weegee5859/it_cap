@@ -1,0 +1,124 @@
+/*
+ * Author:       
+ * Date:           
+ * Filename:    signup.css
+ */
+/*
+// Blue: #6096BA;
+// Brown: #9C916D;
+// White: #FFFFFF;
+// Black: #0F1A20;
+*/
+
+.social_media_block_title {
+    margin:  0.1em;
+    margin-top: 0.4em;
+    color: #9C916D;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.social_media_block {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    padding: 0.2em;
+}
+
+.social_media_block a {
+color: #9C916D;
+font-size: 1.5em;
+border: 3px solid #9C916D;
+width: 1em;
+height: 1em;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-left: .5em;
+margin-right: .5em;
+margin-top: 0.1em;
+}
+
+.social_media_block a:hover {
+    color: #6096BA;
+    border-color: #6096BA;
+    transition: .2s ease-in-out;
+}
+
+.icon {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3em;
+    padding-top: 1em;
+    padding-bottom: 6em;
+    align-items: center;
+    position: relative;
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: white;
+}
+
+form #title {
+    font-size: 1.7em;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+input{
+    font-size: 20px;
+}
+
+button{
+    background-color: #6096BA;
+    font-size: 1.3em;
+    padding: 4px;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin-top: .7em;
+    margin-left: auto;
+    margin-right: .5em;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+button:hover{
+    
+    transition: all 0.4s ease-in-out;
+    background-color: limegreen;
+    color: white;
+}
+
+
+.login {
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4em;
+    padding-top: 7em;
+    height: 100%;
+
+    background-image: url("../resources/signup.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,.5); /* Tint color */
+    background-blend-mode: multiply;
+}
+
+body {
+    height: 100%;
+}
